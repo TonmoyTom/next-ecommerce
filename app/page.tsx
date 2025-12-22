@@ -1,8 +1,10 @@
-
+import Image from "next/image"
 export default function Home() {
   return (
-    <div >
-     <p>Hello World</p>
+    <div className="">
+     <div className="relative aspect-3/1 mb-12">
+       <Image src="/featured.png" alt="Featured Product" fill />
+     </div>
     </div>
   );
 }
